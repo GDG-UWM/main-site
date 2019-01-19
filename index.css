@@ -3,6 +3,12 @@
   src: url("./fonts/ProductSans-Regular.otf") format("opentype");
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
 body {
   background: url('./img/faq-background.png') no-repeat center center;
   background-size: cover;
