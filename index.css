@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Product Sans;
+  src: url("./fonts/ProductSans-Regular.otf") format("opentype");
+}
+
+body {
+  background: url('./img/faq-background.png') no-repeat center center;
+  background-size: cover;
+  font-family: 'Product Sans';
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 30vh;
+  min-height: 100px;
+  margin-top: 15vh;
+}
+
+h1 {
+  font-size: 10vh;
+  color: white;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+a {
+  border: 3px solid #1aaeef;
+  border-radius: 5px 10px;
+  transition: background-color .3s linear;
+  outline: none;
+  text-decoration: none;
+  padding: 8px 0px;
+  margin: auto;
+  display: block;
+  background-color: #1aaeef;
+  color: white;
+  font-size: 25px;
+  width: 160px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: white;
+  color: #1aaeef;
+}
